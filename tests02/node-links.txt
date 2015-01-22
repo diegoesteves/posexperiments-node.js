@@ -1,0 +1,55 @@
+http://blog.nodejitsu.com/the-nodejs-philosophy/
+
+http://adamghill.com/callbacks-considered-a-smell/
+http://www.hacksparrow.com/using-node-js-to-download-files.html#nodejs-wget
+http://www.hacksparrow.com/difference-between-spawn-and-exec-of-node-js-child_process.html
+
+--Operacao Assincrona
+http://alexeypetrushin.github.io/synchronize/docs/index.html
+
+--Executar shell sincrono
+https://www.npmjs.org/package/execSync
+
+http://blog.4psa.com/the-callback-syndrome-in-node-js/
+
+--Fluxo de controle
+http://book.mixu.net/node/ch7.html
+http://blog.binarymist.net/2014/07/26/node-js-asynchronicity-and-callback-nesting/
+http://tech.pro/blog/1402/five-patterns-to-help-you-tame-asynchronous-javascript
+http://howtonode.org/control-flow-part-ii
+
+
+--shell
+http://strongloop.com/strongblog/programacao-shell-com-processos-filhos-sincronos-usando-o-node-js-v0-12/
+
+--asyncronous control flow using Promisses
+http://howtonode.org/promises
+
+--streams
+https://github.com/thesmart/node-SmartStream
+http://neethack.com/2013/12/understand-node-stream-what-i-learned-when-fixing-aws-sdk-bug/
+http://stackoverflow.com/questions/16010915/parsing-huge-logfiles-in-node-js-read-in-line-by-line
+http://codewinds.com/blog/2013-08-19-nodejs-writable-streams.html
+
+https://www.npmjs.org/package/n3
+http://ruben.verborgh.org/blog/2013/04/30/lightning-fast-rdf-in-javascript/
+https://www.npmjs.org/package/lazy
+http://danieltao.com/lazy.js/
+
+--exports
+http://liangzan.net/blog/blog/2012/06/04/how-to-use-exports-in-nodejs/
+http://openmymind.net/2012/2/3/Node-Require-and-Exports/
+http://nodeguide.com/beginner.html
+http://www.sitepoint.com/understanding-module-exports-exports-node-js/
+
+--eventos
+http://code.tutsplus.com/tutorials/using-nodes-event-module--net-35941
+
+--linux
+http://blog.datagraph.org/2010/03/grepping-ntriples
+https://www.mankier.com/1/rapper
+
+--web service
+http://blog.nodejitsu.com/a-simple-webservice-in-nodejs/
+http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/
+http://code.tutsplus.com/tutorials/nodejs-for-beginners--net-26314

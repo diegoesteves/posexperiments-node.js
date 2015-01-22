@@ -1,0 +1,4 @@
+<http://de.dbpedia.org/resource/Anschluss_(Soziologie)> <http://purl.org/dc/terms/subject> <http://de.dbpedia.org/resource/Kategorie:Soziologische_Systemtheorie> .
+<http://de.dbpedia.org/resource/Aussagenlogik> <http://purl.org/dc/terms/subject> <http://de.dbpedia.org/resource/Kategorie:Logik> .
+<http://de.dbpedia.org/resource/Aussagenlogik2> <http://purl.org/dc/terms/subject2> <http://de.dbpedia.org/resource/Kategorie:Logik2> .
+<http://de.dbpedia.org/resource/Aussagenlogik3> <http://purl.org/dc/terms/subject3> <http://de.dbpedia.org/resource/Kategorie:Logik3> .

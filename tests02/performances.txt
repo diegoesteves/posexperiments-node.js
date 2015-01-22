@@ -1,0 +1,33 @@
+1) dewiki-20140114-article-categories.ttl 
+    rapper: Serializing with serializer ntriples
+    rapper: Guessed parser name 'turtle'
+    rapper: Parsing returned 6173488 triples
+    Execution time       : 65s 624.925684ms ***(i.e., read and write the output file! cannot compare among 2,3 and 4)
+
+2) dewiki-20140114-article-categories-short.ttl
+	file has been written! triplas: 192
+	Execution time       : 0s 35.775312ms
+
+3) dewiki-20140114-article-categories-medium.ttl
+	file has been written! triplas: 510.720
+	Execution time       : 22s 658.834141ms
+	
+4) dewiki-20140114-article-categories.ttl
+	file has been written! triplas: 6.173.488
+	Execution time       : 36s 905.929455ms
+	
+5) dewiki-20140114-article-categories.ttl (SEM SORT)
+rapper: Serializing with serializer ntriples
+rapper: Guessed parser name 'turtle'
+rapper: Parsing returned 6173488 triples
+Execution time       : 58s 80.682434ms
+"rapper -g dewiki-20140114-article-categories.ttl | cut -f1 -d '>' | sed 's/<//' > subjects.dbpedia"
+
+
+
+rapper -g dewiki-20140114-article-categories.ttl | cut -f1 -d '>' | sort -u | uniq -u | sed 's/<//' > subjects.dbpedia
+
+
+
+**********************************************************************************************************
+couting number of triples: cat dewiki-20140114-article-categories.ttl | wc -l 

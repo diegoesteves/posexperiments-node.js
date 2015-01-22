@@ -1,0 +1,66 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix nif:     <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix itsrdf:  <http://www.w3.org/2005/11/its/rdf#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix aksw:    <http://aksw.org/> .
+
+<http://aksw.org/N3/News-100/40#char=58,60>
+      a       nif:RFC5147String ;
+      nif:anchorOf "BP"^^xsd:string ;
+      nif:beginIndex "58"^^xsd:nonNegativeInteger ;
+      nif:endIndex "60"^^xsd:nonNegativeInteger ;
+      nif:referenceContext
+              <http://aksw.org/N3/News-100/40#char=0,1950> ;
+      itsrdf:taIdentRef <http://de.dbpedia.org/resource/BP> ;
+      itsrdf:taSource "DBpedia_de_3.9"^^xsd:string .
+
+<http://aksw.org/N3/News-100/29#char=27,31>
+      a       nif:RFC5147String ;
+      nif:anchorOf "Golf"^^xsd:string ;
+      nif:beginIndex "27"^^xsd:nonNegativeInteger ;
+      nif:endIndex "31"^^xsd:nonNegativeInteger ;
+      nif:referenceContext
+              <http://aksw.org/N3/News-100/29#char=0,2164> ;
+      itsrdf:taIdentRef <http://de.dbpedia.org/resource/Golf_von_Mexiko> ;
+      itsrdf:taSource "DBpedia_de_3.9"^^xsd:string .
+
+<http://aksw.org/N3/News-100/55#char=962,975>
+      a       nif:RFC5147String ;
+      nif:anchorOf "Chad Campbell"^^xsd:string ;
+      nif:beginIndex "962"^^xsd:nonNegativeInteger ;
+      nif:endIndex "975"^^xsd:nonNegativeInteger ;
+      nif:referenceContext
+              <http://aksw.org/N3/News-100/55#char=0,2983> ;
+      itsrdf:taIdentRef <http://de.dbpedia.org/resource/Chad_Campbell> ;
+      itsrdf:taSource "DBpedia_de_3.9"^^xsd:string .
+
+<http://aksw.org/N3/News-100/61#char=959,966>
+      a       nif:RFC5147String ;
+      nif:anchorOf "Faglaro"^^xsd:string ;
+      nif:beginIndex "959"^^xsd:nonNegativeInteger ;
+      nif:endIndex "966"^^xsd:nonNegativeInteger ;
+      nif:referenceContext
+              <http://aksw.org/N3/News-100/61#char=0,3946> ;
+      itsrdf:taIdentRef <http://aksw.org/notInWiki/Faglaro> .
+
+<http://aksw.org/N3/News-100/35#char=262,273>
+      a       nif:RFC5147String ;
+      nif:anchorOf "Rüsselsheim"^^xsd:string ;
+      nif:beginIndex "262"^^xsd:nonNegativeInteger ;
+      nif:endIndex "273"^^xsd:nonNegativeInteger ;
+      nif:referenceContext
+              <http://aksw.org/N3/News-100/35#char=0,1256> ;
+      itsrdf:taIdentRef <http://de.dbpedia.org/resource/Rüsselsheim> ;
+      itsrdf:taSource "DBpedia_de_3.9"^^xsd:string .
+
+<http://aksw.org/N3/News-100/48#char=227,236>
+      a       nif:RFC5147String ;
+      nif:anchorOf "Longchamp"^^xsd:string ;
+      nif:beginIndex "227"^^xsd:nonNegativeInteger ;
+      nif:endIndex "236"^^xsd:nonNegativeInteger ;
+      nif:referenceContext
+              <http://aksw.org/N3/News-100/48#char=0,1125> ;
+      itsrdf:taIdentRef <http://de.dbpedia.org/resource/Longchamp_(Schiff)> ;
+      itsrdf:taSource "DBpedia_de_3.9"^^xsd:string .
